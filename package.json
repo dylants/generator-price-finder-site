@@ -25,9 +25,11 @@
   ],
   "main": "generators/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "test:watch": "./node_modules/.bin/mocha --watch test/**"
   },
   "dependencies": {
+    "lodash": "^4.3.0",
     "yeoman-generator": "^0.21.1",
     "yosay": "^1.0.2"
   },
