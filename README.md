@@ -29,6 +29,14 @@ From the root of the price-finder project directory, execute the following comma
 $ yo price-finder-site
 ```
 
-Follow the prompts to create the new Site, along with a unit and e2e test.
-This will generate the files and most of their content, but some tweaking is
-still required. Be sure to look through the files generated and update accordingly.
+Answer the questions, and once complete the generator will create the following files:
+
+* `lib/sites/<site-name>.js`
+* `test/unit/sites/<site-name>-test.js`
+* `test/e2e/<site-name>-uris-test.js`
+
+The attempt here is to generate not only the files, but most of the content
+necessary to use the site within `price-finder`. But know that your job is not
+complete! Please look through the files created and add selectors, update
+any incorrect information, and add test data. Running the unit and end to end
+tests should answer any questions on if the code is working correctly.
