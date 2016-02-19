@@ -41,7 +41,7 @@ class <%= upperCaseSite %>Site {
     return price;
   }
 
-  findCategoryOnPage() {
+  findCategoryOnPage($) {
     // TODO find the category
     const category = siteUtils.categories.OTHER;
 
