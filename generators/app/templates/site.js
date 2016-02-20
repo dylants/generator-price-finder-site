@@ -50,7 +50,7 @@ class <%= upperCaseSite %>Site {
     return category;
   }
 
-  findNameOnPage($) {
+  findNameOnPage($, category) {
     // the various ways we can find the name
     const selectors = [
       '',
