@@ -27,7 +27,7 @@ describe('price-finder for <%= upperCaseSite %> Store URIs', () => {
     it('should respond with a price, and the right category and name for findItemDetails()', (done) => {
       priceFinder.findItemDetails(uri, (err, itemDetails) => {
         expect(err).toBeNull();
-        verifyItemDetails(itemDetails, 'PixelJunk™ Monsters', 'Video Games');
+        verifyItemDetails(itemDetails, '', '');
 
         done();
       });
