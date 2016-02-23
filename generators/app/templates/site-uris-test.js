@@ -1,8 +1,5 @@
 'use strict';
 
-// set the timeout of these tests to 10 seconds
-jasmine.getEnv().defaultTimeoutInterval = 10000;
-
 const testHelper = require('./test-helper');
 const PriceFinder = testHelper.priceFinder;
 const priceFinder = testHelper.verifyItemDetails;
