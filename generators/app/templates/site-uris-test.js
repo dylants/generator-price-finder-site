@@ -1,9 +1,6 @@
 'use strict';
 
 const testHelper = require('./test-helper');
-const PriceFinder = testHelper.priceFinder;
-const priceFinder = testHelper.verifyItemDetails;
-
 const priceFinder = testHelper.priceFinder;
 const verifyPrice = testHelper.verifyPrice;
 const verifyItemDetails = testHelper.verifyItemDetails;
