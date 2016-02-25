@@ -1,6 +1,7 @@
 'use strict';
 
 const testHelper = require('./test-helper');
+
 const priceFinder = testHelper.priceFinder;
 const verifyPrice = testHelper.verifyPrice;
 const verifyItemDetails = testHelper.verifyItemDetails;
@@ -22,7 +23,6 @@ describe('price-finder for <%= upperCaseSite %> Store URIs', () => {
       priceFinder.findItemDetails(uri, (err, itemDetails) => {
         expect(err).toBeNull();
         verifyItemDetails(itemDetails, '', '');
-
         done();
       });
     });
