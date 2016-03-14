@@ -30,18 +30,18 @@
   },
   "dependencies": {
     "lodash": "^4.3.0",
-    "yeoman-generator": "^0.21.1",
+    "yeoman-generator": "^0.22.5",
     "yosay": "^1.0.2"
   },
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^5.0.0",
-    "grunt": "0.4.5",
-    "grunt-cli": "0.1.13",
-    "grunt-eslint": "17.3.2",
-    "grunt-mocha-test": "0.12.7",
-    "load-grunt-tasks": "3.4.0",
-    "mocha": "2.4.5",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-eslint": "^17.3.2",
+    "grunt-mocha-test": "^0.12.7",
+    "load-grunt-tasks": "^3.4.0",
+    "mocha": "^2.4.5",
     "yeoman-assert": "^2.0.0"
   }
 }

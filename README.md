@@ -1,8 +1,8 @@
 # generator-price-finder-site #
 
-[![Build Status](https://travis-ci.org/dylants/generator-price-finder-site.svg)](https://travis-ci.org/dylants/generator-price-finder-site) [![NPM version](https://badge.fury.io/js/generator-price-finder-site.svg)](http://badge.fury.io/js/generator-price-finder-site)
-
-[![NPM](https://nodei.co/npm/generator-price-finder-site.svg?downloads=true)](https://nodei.co/npm/generator-price-finder-site/)
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Build Status][travis-image]][travis-url]
 
 Generates a Site for the price-finder module.  Please see the documentation on
 price-finder for more information:
@@ -40,3 +40,23 @@ necessary to use the site within `price-finder`. But know that your job is not
 complete! Please look through the files created and add selectors, update
 any incorrect information, and add test data. Running the unit and end to end
 tests should answer any questions on if the code is working correctly.
+
+## Etc ##
+
+- [Contributors](https://github.com/dylants/generator-price-finder-site/graphs/contributors)
+- [![License][license-image]][license-url]
+- [![Dependency Status][david-image]][david-url]
+- [![Node Version][node-image]][node-url]
+
+[npm-image]: https://img.shields.io/npm/v/generator-price-finder-site.svg
+[npm-url]: https://npmjs.org/package/generator-price-finder-site
+[downloads-image]: https://img.shields.io/npm/dm/generator-price-finder-site.svg
+[downloads-url]: https://npmjs.org/package/generator-price-finder-site
+[travis-image]: https://img.shields.io/travis/dylants/generator-price-finder-site/master.svg
+[travis-url]: https://travis-ci.org/dylants/generator-price-finder-site
+[license-image]: https://img.shields.io/github/license/dylants/generator-price-finder-site.svg
+[license-url]: LICENSE
+[david-image]: https://img.shields.io/david/dylants/generator-price-finder-site.svg
+[david-url]: https://david-dm.org/dylants/generator-price-finder-site
+[node-image]: https://img.shields.io/node/v/generator-price-finder-site.svg
+[node-url]: https://npmjs.org/package/generator-price-finder-site
