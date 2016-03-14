@@ -1,3 +1,9 @@
+# v1.3.0
+
+New Features:
+
+- [#9](https://github.com/dylants/generator-price-finder-site/pull/9) Switch from Jasmine to Mocha in generated tests
+
 # v1.2.0
 
 New Features:
