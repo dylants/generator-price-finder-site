@@ -1,7 +1,10 @@
 {
   "name": "generator-price-finder-site",
   "description": "Generates a Site for the price-finder module",
-  "version": "1.2.0",
+  "version": "1.3.0",
+  "engines": {
+    "node": "4.x"
+  },
   "author": {
     "name": "Dylan Smith"
   },
